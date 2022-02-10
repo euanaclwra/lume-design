@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+
+
+.menu {
+    background-color: #f1f1f1;
+    height: 115px;
+    text-decoration: none;
+
+}
+
+.logo {
+    height: 75px;
+    padding: 15px;
+    float: left;
+    margin-left: 540px;
+    margin-top: 7px;
+}
+
+.redes-sociais {
+    width: 30px;
+    height: 30px;
+   
+}
+
+
+.redes-sociais ul {
+    display: flex;
+    float: left;
+    list-style: none;
+    position: absolute; left: 1210px;
+    
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    margin-top: 60px;
+    position: relative; 
+    
+    
+    
+}
+
+body {
+    background-color: purple;
+    margin: 0px;
+    
+}
+
+.menu-principal {
+    background-color: white;
+    height: 90px;
+}
+
+.menu-barra {
+    display: flex;
+    float: center;
+    list-style: none;
+    font-size: 14px;
+    color: purple;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 290px;
+    
+}
+
+.menu-barra li {
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+.menu-barra ul li a {
+    color: purple;
+}
+
+.divmenu-barra {
+    margin-top: 25px;
+}
+
+.menu-barra-2 {
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+}
+
+.menu-barra-2 li {
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    
+}
+
+.imgfundo-1 {
+    height: 500px;
+    width: 100%;
+}
+
+.divtexto-1 {
+    position: absolute; top: 200px; left: 200px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+  
+    
+}
+
+.divider {
+    height: 210px;
+    width: 5px;
+    background-image: linear-gradient(to bottom, rgb(230, 39, 128), purple);
+    position: absolute; top: 260px; right: 600px;
+    margin-right: 20px;
+    
+}
+
+.texto-2 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(49, 49, 49);
+}
+
+.divtexto-2 {
+    width: 500px;
+    position: absolute; bottom: 54px;
+}
+
+.criar{
+    padding: 15px;
+    padding-right: 160px;
+    padding-left: 160px;
+    background: transparent;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: rgb(179, 27, 128);
+    margin-top: 5px;
+    color: rgb(179, 27, 128);
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; bottom: 3px; left: 15px;
+
+}
+
+.divfundo-2 {
+    height: 600px;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple); 
+}
+
+.bloco-1 {
+    height: 500px;
+    width: 350px;
+    background-color: #f1f1f1;
+    position: relative; left: 900px; top: 49px;
+    border-radius: 4px;
+    
+}
+
+.imgbloco-1 {
+    height: 120px;
+    position: relative; left: 110px;
+    border: 2px solid;
+    border-color: rgba(206, 206, 206, 0.4);
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+.bloco-2 {
+    height: 500px;
+    width: 350px;
+    background-color: #f1f1f1;
+    position: absolute; left: 500px; top: 663px;
+    border-radius: 4px;
+}
+
+.imgbloco-2 {
+    height: 120px;
+    position: relative; left: 110px;
+    border: 2px solid;
+    border-color: rgba(206, 206, 206, 0.4);
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+.bloco-3 {
+    height: 500px;
+    width: 350px;
+    background-color: #f1f1f1;
+    position: absolute; left: 100px; top: 663px;
+    border-radius: 4px;
+}
+
+.imgbloco-3 {
+    height: 120px;
+    position: relative; left: 110px;
+    border: 2px solid;
+    border-color: rgba(206, 206, 206, 0.4);
+    border-radius: 100px;
+    margin-top: 25px;
+}
+
+.titulobloco-3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 30px;
+    margin-left: 45px;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.textobloco-3 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    position: absolute; top: 200px;
+}
+
+.botaobloco-3 {
+    padding: 15px;
+    background: transparent;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: rgba(206, 206, 206, 0.4);
+    margin-top: 5px;
+    color: rgb(179, 27, 128);
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; bottom: 60px; left: 115px;
+}
+
+.titulobloco-2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 30px;
+    margin-left: 110px;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.textobloco-2 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    position: absolute; top: 200px;
+}
+
+.botaobloco-2 {
+    padding: 15px;
+    background: transparent;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: rgba(206, 206, 206, 0.4);
+    margin-top: 5px;
+    color: rgb(179, 27, 128);
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; bottom: 60px; left: 115px;
+}
+
+.titulobloco-1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.textobloco-1 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    position: absolute; top: 200px;
+}
+
+.botaobloco-1 {
+    padding: 15px;
+    background: transparent;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: rgba(206, 206, 206, 0.4);
+    margin-top: 5px;
+    color: rgb(179, 27, 128);
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; bottom: 60px; left: 115px;
+}
+
+.divfundo-3 {
+    height: 650px;
+    position: relative;
+}
+
+.titulofundo-3 {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    position: absolute; left: 470px; top: 20px;
+}
+
+.imgfundo-3 {
+    height: 500px;
+    position: relative; bottom: 530px; left: 650px;
+}
+
+.textofundo-3 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    width: 450px;
+    text-align: left;
+    position: absolute; left: 200px; bottom: 140px;
+}
+
+.botaofundo-3 {
+    padding: 15px;
+    background: transparent;
+    font-family: 'Red Hat Display', sans-serif;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: rgb(179, 27, 128);
+    margin-top: 5px;
+    color: rgb(179, 27, 128);
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; bottom: 65px; left: 200px;
+}
+
+.fundo-3 {
+    height: 700px;
+}
+
+.divfundo-4 {
+    height: 900px;
+    background-image: linear-gradient(60deg, purple, rgb(230, 39, 128)); 
+}
+
+.titulofundo-4 {
+    position: relative; top: 40px; left: 450px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #f1f1f1;
+    font-size: 60px;
+}
+
+.adidas {
+    height: 200px;
+    margin-left: 125px;
+    margin-top: 17px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+    
+}
+
+.airbnb {
+    height: 200px;
+    position: absolute; left: 400px; top: 2040px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.burguer-king {
+    height: 200px;
+    position: absolute; left: 675px; top: 2040px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.enel {
+    height: 200px;
+    position: absolute; left: 950px; top: 2040px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.ifood {
+    height: 200px;
+    margin-left: 125px;
+    margin-top: 17px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.loggi {
+    height: 200px;
+    position: absolute; left: 400px; top: 2262px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.mastercard {
+    height: 200px;
+    position: absolute; left: 675px; top: 2262px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.playboy {
+    height: 200px;
+    position: absolute; left: 950px; top: 2262px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.mlabs {
+    height: 200px;
+    margin-left: 125px;
+    margin-top: 17px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.renault {
+    height: 200px;
+    position: absolute; left: 400px; top: 2485px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.taco-bell {
+    height: 200px;
+    position: absolute; left: 675px; top: 2485px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.yahoo {
+    height: 200px;
+    position: absolute; left: 950px; top: 2485px;
+    border: 2px solid rgba(177, 2, 148, 0.5);
+    border-radius: 20px;
+}
+
+.divfundo-5 {
+    height: 600px;
+    background-image: linear-gradient(60deg, rgb(194, 194, 194), #f1f1f1); 
+    position: relative;
+}
+
+.titulofundo-5 {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 60px;
+    position: absolute; left: 500px; top: 10px;
+}
+
+.feedback-1 {
+    height: 200px;
+    width: 550px;
+    background-image: linear-gradient(120deg, purple, rgb(230, 39, 128)); 
+    border-radius: 10px;
+    position: absolute; top: 170px; left: 80px;
+    box-shadow: 0px 0px 39px 3px rgba(255,61,252,0.5);
+}
+
+.feedback-2 {
+    height: 200px;
+    width: 550px;
+    background-image: linear-gradient(-120deg, purple, rgb(230, 39, 128)); 
+    border-radius: 10px;
+    position: absolute; top: 170px; left: 700px;
+    box-shadow: 0px 0px 39px 3px rgba(255,61,252,0.5);
+}
+
+.imgfeedback-1 {
+    height: 150px;
+    position: absolute; left: 5px; top: 20px;
+}
+
+.nome-mulher {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #f1f1f1;
+    position: absolute; top: 29px; left: 150px;
+    font-size: 23px;
+}
+
+.texto-mulher {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    width: 350px;
+    position: absolute; top: 60px; left: 150px;
+    color: #f1f1f1;
+    font-size: 17px;
+}
+
+.imgfeedback-2 {
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.estrelas-1 {
+    height: 20px;
+    position: absolute; left: 315px; top: 47px;
+}
+
+.nome-homem {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #f1f1f1;
+    position: absolute; top: 20px; left: 150px;
+    font-size: 23px;
+}
+
+.texto-homem {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    width: 350px;
+    position: absolute; top: 51px; left: 150px;
+    color: #f1f1f1;
+    font-size: 17px;
+}
+
+.estrelas-2 {
+    height: 20px;
+    position: absolute; left: 367px; top: 39px;
+}
+
+.ver-mais {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    position: absolute; right: 100px; bottom: 170px;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+    color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+
+}
+
+.fundo-5 {
+    position: relative;
+}
+
+.rodape {
+    height: 300px;
+    background-image: linear-gradient(60deg, rgb(230, 39, 128), purple);
+}
+
+.logo-branca {
+    height: 100px;
+    position: relative; left: 510px; top: 65px;
+}
+
+
+.texto-rodape {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #f1f1f1;
+    position: relative; top: 100px;
+}
